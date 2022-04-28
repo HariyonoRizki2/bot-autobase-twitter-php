@@ -2,20 +2,20 @@
 
 // session_start();
 require "autoload.php";
-define("CONSUMER_KEY", "");
-define("CONSUMER_SECRET", "");
-define("OAUTH_TOKEN", "");
-define("OAUTH_TOKEN_SECRET", "");
-//define("OAUTH_CALLBACK", ""); //callback url, isi jika dibutuhkan. (optional)
-define("WEBHOOK_URL", ""); //https://domain-kamu.com/twitter/webhook.php
+define("CONSUMER_KEY", "1wYJbVtVdoImRjiSHwzCrSabs");
+define("CONSUMER_SECRET", "n8kllRd6dBYyZ73LcjLx2FvLe8MuRH5sN9wZlcaN4agqeckgOt");
+define("OAUTH_TOKEN", "ZldqSFZqUWd5aDNUV21FZWxpWm86MTpjaQ");
+define("OAUTH_TOKEN_SECRET", "DwV0nAMD--NeFHppWVXfF2n9mQ9hGEAQfdqR-XZSVzzjNhZb3c");
+//define("OAUTH_CALLBACK", "https://bot-autobase-twitter-php.vercel.app/"); //callback url, isi jika dibutuhkan. (optional)
+define("WEBHOOK_URL", "https://bot-autobase-twitter-php.vercel.app/twitter/webhook.php"); //https://domain-kamu.com/twitter/webhook.php
 define("ENV_LABEL", ""); //Dev environment label
 
-define("TRIGGER_WORD", "dog");
+define("TRIGGER_WORD", "kiki");
 define("ADMIN_ID", ["965702083", "", ""]); //User ID Admin (optional)
-define("MINIMAL_FOLLOWERS", "10");
+define("MINIMAL_FOLLOWERS", "2");
 define("SLEEP_TIME", "15"); //delay ketika post tweet (detik)
 
-define("TRIGGER_OFF", "off"); //tambahkan kata off di bio maka bot akan nonaktif
+define("TRIGGER_OFF", "close dm"); //tambahkan kata off di bio maka bot akan nonaktif
 
 define("ALERT_NOT_FOLLOW", "[BOT] kamu belum follow base ini");
 define("ALERT_NOT_FOLLBACK", "[BOT] kamu belum difollback, tunggu sesi open follback berikutnya");
